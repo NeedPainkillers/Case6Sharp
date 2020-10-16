@@ -67,4 +67,4 @@ namespace Kaspersky
         }
     }
 }
-//
+//https://github.com/NeedPainkillers/Case6Sharp
