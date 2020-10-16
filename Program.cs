@@ -8,9 +8,9 @@ namespace Kaspersky
 {
     class Program
     {
-       /// <summary>
-       /// Переписал бы это используя рефлексию, но времени не хватит
-       /// </summary>
+        /// <summary>
+        /// Переписал бы это используя рефлексию, но времени не хватит
+        /// </summary>
         static void case6s()
         {
             string input = Console.ReadLine();
@@ -57,6 +57,10 @@ namespace Kaspersky
             Console.WriteLine($"Second(2)-{s}");
             Console.WriteLine($"Third(3)-{t}");
             Console.WriteLine($"Fourth(4)-{fo}");
+            if (string.IsNullOrEmpty(err))
+            {
+                return;
+            }
             Console.WriteLine($"Errors:");
             Console.WriteLine($"Not valid input strings: {err}");
         }
